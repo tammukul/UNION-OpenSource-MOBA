@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!55 &1
+PhysicsManager:
+  m_ObjectHideFlags: 0
+  m_Gravity: {x: 0, y: -9.81000042, z: 0}
+  m_DefaultMaterial: {fileID: 0}
+  m_BounceThreshold: 2
+  m_SleepVelocity: .150000006
+  m_SleepAngularVelocity: .140000001
+  m_MaxAngularVelocity: 7
+  m_MinPenetrationForPenalty: .00999999978
+  m_SolverIterationCount: 6
+  m_RaycastsHitTriggers: 1
+  m_LayerCollisionMatrix: c800e0ffc800e0ffc800e0ffffffffffc800e0ffc800e0ffffffffffffffffffc816e3ffc805ffffc80be4ffc804e3ffc801e4ffc800e3ffc800e1ffc800e2ffc86be4ffc8abe4ffc816e3ffc802e0ffc802e0ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff

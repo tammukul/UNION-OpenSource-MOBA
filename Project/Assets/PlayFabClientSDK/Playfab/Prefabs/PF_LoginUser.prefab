@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PF_LoginUser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.6274872, y: -18.9478836, z: -56.0486488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84afff42780030439f59c0ba456f2b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: 55736572204c6f67696e
+  userNameLabel: 55736572204e616d65
+  passwordLabel: 50617373776f7264
+  nextScene: 416e677279426f7473
+  previousScene: 50465f5573657252656769737465725363656e65
+  playfabBackground: {fileID: 2800000, guid: 2167ca784d3595c46a60999768f77b28, type: 3}
+  accountNotFound: 54686174206163636f756e7420636f756c64206e6f7420626520666f756e642e
+  accountBanned: 54686174206163636f756e7420686173206265656e2062616e6e65642e
+  invalidPassword: 50617373776f726420697320696e76616c69642028362d32342063686172616374657273292e
+  invalidUsername: 557365726e616d6520697320696e76616c69642028332d32342063686172616374657273292e
+  wrongPassword: 57726f6e672070617373776f726420666f72207468617420757365722e
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

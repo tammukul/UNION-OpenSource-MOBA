@@ -1,0 +1,178 @@
+[  
+   {  
+      "Name":"Key_BuySecondChar",
+      "Value":"Buy Second Char"
+   },
+   {  
+      "Name":"Key_BuySecondCharText",
+      "Value":"Enables user to play with the character She. Buy it, and have fun killing EVERYBODY!!"
+   },
+   {  
+      "Name":"Key_ChangeTeam",
+      "Value":"Change Team"
+   },
+   {  
+      "Name":"Key_ComingSoon",
+      "Value":"Coming Soon"
+   },
+   {  
+      "Name":"Key_CreateMatch",
+      "Value":"Create Match"
+   },
+   {  
+      "Name":"Key_Home",
+      "Value":"Home"
+   },
+   {  
+      "Name":"Key_Inventory",
+      "Value":"Inventory"
+   },
+   {  
+      "Name":"Key_JoinMatch",
+      "Value":"Join Match"
+   },
+   {  
+      "Name":"Key_Kills",
+      "Value":"Kills"
+   },
+   {  
+      "Name":"Key_LeaderboardTitle",
+      "Value":"Kills Leaderboard"
+   },
+   {  
+      "Name":"Key_LeaveGameBtn",
+      "Value":"Leave Game"
+   },
+   {  
+      "Name":"Key_LeaveGameText",
+      "Value":"You will be disconnected from this match"
+   },
+   {  
+      "Name":"Key_LeaveGameTitle",
+      "Value":"Leave Game"
+   },
+   {  
+      "Name":"Key_Level",
+      "Value":"Level"
+   },
+   {  
+      "Name":"Key_Loading",
+      "Value":"Loading..."
+   },
+   {  
+      "Name":"Key_MainMenuBtn",
+      "Value":"Main Menu"
+   },
+   {  
+      "Name":"Key_ModeSelectTitle",
+      "Value":"Public Match"
+   },
+   {  
+      "Name":"Key_No",
+      "Value":"No"
+   },
+   {  
+      "Name":"Key_NoThanks",
+      "Value":"No thanks"
+   },
+   {  
+      "Name":"Key_OhYes",
+      "Value":"Oh Yes!!!"
+   },
+   {  
+      "Name":"Key_Options",
+      "Value":"Options"
+   },
+   {  
+      "Name":"Key_Play",
+      "Value":"Play"
+   },
+   {  
+      "Name":"Key_PlayAgainBtn",
+      "Value":"Play Again"
+   },
+   {  
+      "Name":"Key_Player",
+      "Value":"Player"
+   },
+   {  
+      "Name":"Key_SelectChar",
+      "Value":"Select Char"
+   },
+   {  
+      "Name":"Key_Settings",
+      "Value":"Settings"
+   },
+   {  
+      "Name":"Key_Statistics",
+      "Value":"Statistics"
+   },
+   {  
+      "Name":"Key_Stats",
+      "Value":"Stats"
+   },
+   {  
+      "Name":"Key_Store",
+      "Value":"Store"
+   },
+   {  
+      "Name":"Key_StoreBtn",
+      "Value":"Go to store"
+   },
+   {  
+      "Name":"Key_Tutorial",
+      "Value":"Tutorial"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg1Item1",
+      "Value":"Kill Player owning a portal to make it neutral again"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg1Item2",
+      "Value":"Level Up and Buy Upgrades during the match"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg1Item3",
+      "Value":"Left Side Move"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg1Item4",
+      "Value":"Right Side Shoot"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg2Item1",
+      "Value":"Step over a portal to control it"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg2Item2",
+      "Value":"Control 2 or more portals"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg2Item3",
+      "Value":"tower is vulnerable! Destroy it!"
+   },
+   {  
+      "Name":"Key_Tutorial_Pg2Item4",
+      "Value":"No Tower = No Respawn Kill enemies to win"
+   },
+   {  
+      "Name":"Key_TypeMessage",
+      "Value":"Type a message"
+   },
+   {  
+      "Name":"Key_Vs",
+      "Value":"Vs"
+   },
+   {  
+      "Name":"Key_Wins",
+      "Value":"Wins"
+   },
+   {  
+      "Name":"Key_XP",
+      "Value":"XP:"
+   },
+   {  
+      "Name":"Key_Yes",
+      "Value":"Yes"
+   }
+]

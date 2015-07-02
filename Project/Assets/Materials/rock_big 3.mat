@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: rock_big 3
+  m_Shader: {fileID: 4800000, guid: 80933b96ddd038d49b678064d27882b5, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c60554d4b50803a47a7b882dd8bbc2ab, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _map
+        second:
+          m_Texture: {fileID: 2800000, guid: a92339e0a08211f4ba1ca24415c3e3eb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Red_texture
+        second:
+          m_Texture: {fileID: 2800000, guid: 60a96ff711738de4cac7c5eb469c4a04, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Green_Texture
+        second:
+          m_Texture: {fileID: 2800000, guid: 203bdea4e8bdbd14c9a8051096907020, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Bluetexture
+        second:
+          m_Texture: {fileID: 2800000, guid: 203bdea4e8bdbd14c9a8051096907020, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: 11f7fc8c5d2cf5b46ab66c637d9fe37e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex3
+        second:
+          m_Texture: {fileID: 2800000, guid: 203bdea4e8bdbd14c9a8051096907020, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex4
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask
+        second:
+          m_Texture: {fileID: 2800000, guid: a92339e0a08211f4ba1ca24415c3e3eb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PathMask
+        second:
+          m_Texture: {fileID: 2800000, guid: 6e91f9cdbb1d1c24ab5a3d59ece81bd2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PathTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 359452c760f4eeb4b9401971b310e9d4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}

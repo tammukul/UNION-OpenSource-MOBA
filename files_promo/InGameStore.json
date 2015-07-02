@@ -1,0 +1,141 @@
+{
+  "CatalogVersion": "InGameStore",
+  "Catalog": [
+    {
+      "ItemId": "MovSpd-2.5",
+      "ItemClass": "PowerUp",
+      "CatalogVersion": "InGameStore",
+      "DisplayName": "Movement Speed Up 2.5%",
+      "Description": "Increases Movement Speed in 2.5%",
+      "VirtualCurrencyPrices": {
+        "0": 300
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": "{\"MovSpd\":\"2.5\",\"\":\"\"}",
+      "GrantedIfPlayerHas": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": null,
+        "ResultTableContents": null,
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "OneTimeGrantWith": null,
+      "OneTimeGrantAnnotation": null
+    },
+    {
+      "ItemId": "HP-8",
+      "ItemClass": "PowerUp",
+      "CatalogVersion": "InGameStore",
+      "DisplayName": "HP Up 8%",
+      "Description": "Increases base HP in 8%",
+      "VirtualCurrencyPrices": {
+        "0": 300
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": "{\"HP\":\"8\"}",
+      "GrantedIfPlayerHas": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": null,
+        "ResultTableContents": null,
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "OneTimeGrantWith": null,
+      "OneTimeGrantAnnotation": null
+    },
+    {
+      "ItemId": "Atk-5",
+      "ItemClass": "PowerUp",
+      "CatalogVersion": "InGameStore",
+      "DisplayName": "Damage Up 5%",
+      "Description": "Increases base damage in 5%",
+      "VirtualCurrencyPrices": {
+        "0": 300
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": "{\"Damage\":\"5\",\"\":\"\"}",
+      "GrantedIfPlayerHas": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": null,
+        "ResultTableContents": null,
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "OneTimeGrantWith": null,
+      "OneTimeGrantAnnotation": null
+    },
+    {
+      "ItemId": "buyshe",
+      "ItemClass": null,
+      "CatalogVersion": "InGameStore",
+      "DisplayName": "New Character",
+      "Description": "Opens a new character to play with.",
+      "VirtualCurrencyPrices": {
+        "RM": 2
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": "null",
+      "GrantedIfPlayerHas": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": null,
+        "ResultTableContents": null,
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "OneTimeGrantWith": null,
+      "OneTimeGrantAnnotation": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{"VirtualCurrencies":[  
+   {  
+      "CurrencyCode":"0",
+      "DisplayName":"In-Game Coins",
+      "InitialDeposit":0,
+      "MaxAmount":0,
+      "RechargeRate":0,
+      "RechargeMax":0
+   },
+   {  
+      "CurrencyCode":"1",
+      "DisplayName":"Currency",
+      "InitialDeposit":1000,
+      "MaxAmount":0,
+      "RechargeRate":0,
+      "RechargeMax":0
+   }
+]
+}
