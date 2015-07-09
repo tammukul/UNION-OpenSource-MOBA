@@ -2,20 +2,21 @@ Union: (A PlayFab-Photon MOBA) README
 ========
 1. Overview:
 ----
-The Game is a Top-down Shooter MOBA for mobile devices with dynamic controls, created in Unity and using Photon and Playfab features. It is fast-paced, intense and combat focused, with two teams of players teaming up for a common objective - destroy the enemy’s tower and all enemy players.
+Union is a sample multiplayer online battle arena (MOBA) game for mobile devices, designed to show off Photon and PlayFab integration with a Unity game. It is fast-paced, intense and combat focused, with two teams of players teaming up for a common objective: destroy the enemy’s tower and all enemy players. All the assets, prefabs, models, sounds and code are open source and can be used in your own game.
+
 
 ##### This demo illustrates:
 * How to use PlayFab and Facebook for:
-  * Getting & sending authentication tokens
+  * Getting and sending authentication tokens
   * Populate PlayFab account details with Facebook data (profile picture, account name)
 * Use PlayFab TitleData as a string table for 'hot-loading' your game's text content
 * Making Google Play IAP requests and validating the receipt with PlayFab
 * Example of how to create real-time multiplayer MOBA with Photon PUN
-  * Simple game system examples ( movement, combat, defense towers, UI, AI)
+  * Simple game system examples (movement, combat, defense towers, UI, AI)
   * Dual touchscreen input for mobile platforms
-  * Photon networking implementation using PUN, extensive examples of Views, Syncs and RPC's
+  * Photon networking implementation using PUN, with extensive examples of Views, Syncs and RPCs
   * In-game store for character upgrades 
-  * Kills and W:L Ratios are tracked via PlayFab PlayerStatistics
+  * Kills and win/loss ratios are tracked via PlayFab PlayerStatistics
   * Compare your stats to others via PlayFab Leaderboards
 
 
@@ -45,16 +46,16 @@ This repository contains the entire Unity3d project.
 * AccountManager
   * Persistent to control all account properties getters and setters. Communicates with Facebook and PlayFab, and holds every property any of these communications may return. Called anywhere in the game, because account’s properties can be changed on gameplay, on store, and will be shown in profile screen.
 * PhotonManager
-  * Persistent to control connection. Connects to photon and finds a room on ModeSelect, handles all gameplay syncs and events on MatchRoom, and gets destroyed on EndGame. Done this to maintain connection between scenes.
+  * Persistent to control connection. Connects to Photon and finds a room on ModeSelect, handles all gameplay syncs and events on MatchRoom, and gets destroyed on EndGame. This maintains connection between scenes.
 * AudioManager
-  * Persistent to handle properties and play music. Has an AudioSource, that keeps playing menu (or gameplay) music in loop, and holds booleans for music enabled, and SFX enabled. Because there’s SFX and music in every scene, the manager is persistent.
+  * Persistent to handle properties and play music. Has an AudioSource, that keeps playing menu (or gameplay) music in loop, and holds booleans for music enabled, and SFX enabled. Because there is SFX and music in every scene, the manager is persistent.
 
 #### 3rd Party Plugins:
 | Class        | Function           | External Site  |
 | ------------- | ------------- | ----- |
-| Photon (PUN) | SDK for accessing networking features | https://www.exitgames.com/en/PUN |
+| Photon (PUN) | SDK for accessing networking features | https://www.photonengine.com/en/PUN |
 | OpenIAB      | SDK for accessing native billing APIs   | https://github.com/onepf/OpenIAB |
-| Unity-GCM | are SDK for registering to the GCM service | https://github.com/kobakei/unity-gcm |
+| Unity-GCM | SDK for registering to the GCM service | https://github.com/kobakei/unity-gcm |
 | Facebook | SDK for accessing Facebook APIs | https://developers.facebook.com/docs/unity |
 
 #### Singleton Usage, allows easy access to these systems from anywhere in the project
@@ -79,7 +80,7 @@ This repository contains the entire Unity3d project.
 
 4. Installation & Configuration Instructions:
 ----
-After downloading, the Unity project will be under Project folder.
+After downloading, the Unity project will be under the Project folder.
 If some errors occurs, it is recommended to delete the folder Photon Unity Networking, and re-import the plugin PUN from Asset Store.
 
 ##### How to run the game in editor mode:
@@ -93,12 +94,12 @@ If some errors occurs, it is recommended to delete the folder Photon Unity Netwo
 6. To enable mouse support:
   * Find the GameControls GameObject in the scene
   * Check the UseWithMouse property on the InputManager 
-  * [note:] the mouse is acts as a single touch input. Although it may be abit awkward in the editor, click->dragging on the left-half of the screen will move the character directionally, while click->dragging on the right-half of the screen will shoot directionally. For best results play on a multi-touch Android device.
+  * [note:] the mouse is acts as a single touch input. Although it may be a bit awkward in the editor, click->dragging on the left-half of the screen will move the character directionally, while click->dragging on the right-half of the screen will shoot directionally. For best results play on a multi-touch Android device.
 
 
 5. Usage Instructions:
 ----
-The game m​ust​ be played (started) from the Landing scene. It will initialize all the needed references (Facebook, PlayFab, audio manager, etc), and start the login process, to be able to access all features, and properly connect to Photon and join a room.
+The game must​ be played (started) from the Landing scene. It will initialize all the needed references (Facebook, PlayFab, audio manager, etc), and start the login process, to be able to access all features, and properly connect to Photon and join a room.
 
 See extra documentation:
   1. Documentation/Union-Usagedocument.pdf
@@ -106,7 +107,7 @@ See extra documentation:
 
 6. Troubleshooting:
 ----
-For a complete list of available APIs, check out the [online documentation](http://api.playfab.com/Documentation/).
+For a complete list of available PlayFab APIs, check out the [online documentation](http://api.playfab.com/Documentation/).
 
 #### Contact Us
 We love to hear from our developer community! 
@@ -118,7 +119,7 @@ Our Developer Success Team can assist with answering any questions as well as pr
 
 #### Known Issues:
 * Complete build for Android only. Building to other platforms may not work as expected
-* PUN does not currently support Photon Web hooks
+* PUN does not currently support Photon webhooks
 * PlayerName & HealthBar UI sometimes separate from the actor GameObject
 * TouchScreen joystick UI is not under the touch
 
