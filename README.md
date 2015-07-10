@@ -96,6 +96,29 @@ If some errors occurs, it is recommended to delete the folder Photon Unity Netwo
   * Check the UseWithMouse property on the InputManager 
   * [note:] the mouse is acts as a single touch input. Although it may be a bit awkward in the editor, click->dragging on the left-half of the screen will move the character directionally, while click->dragging on the right-half of the screen will shoot directionally. For best results play on a multi-touch Android device.
 
+##### How to replicate the Union PlayFab environment to your own title
+* InAppPurchasing will require you to have your own GooglePlay Account information
+* Obtain your own Photon Application ID via the Game Manager > Servers > Photon
+
+1. Upload the game logic (/Documentation/CloudScript.js) via the Game Manager > Servers > CloudScripts > Create New Revision
+2. Upload the game item catalog (/Documentation/InGameStore.json) via the Game Manager > Economy > Catalogs > Upload JSON
+3. Upload the TitleData via the [Admin API](https://api.playfab.com/Documentation/Admin/method/SetTitleData)
+  * Run the following command for each title data element in /Documentation/TitleData.json:
+    `
+    curl -XPOST https://2ABE.playfabapi.com/admin/SetTitleData \
+    -H "Content-Type: application/json" \
+    -H "X-SecretKey: 000-ENTER-YOUR-KEY-HERE-000" \
+    -d "COPY AND PASTE EACH ELEMENT FROM /Documentation/TitleData.json"   
+    `
+4. Ensure your title's virtual currencies match those listed in /Documentation/VirtualCurrencies.json:
+  1. Manually adding them via the Game Manager > Economy > Currencies
+  2. Run the following command with the data in /Documentation/VirtualCurrencies.json:
+    `
+    curl -XPOST https://2ABE.playfabapi.com/admin/AddVirtualCurrencyTypes \
+    -H "Content-Type: application/json" \
+    -H "X-SecretKey: 000-ENTER-YOUR-KEY-HERE-000" \
+    -d "COPY AND PASTE THE CONTENTS FROM /Documentation/VirtualCurrencies.json" 
+    `
 
 5. Usage Instructions:
 ----
