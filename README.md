@@ -112,7 +112,7 @@ If some errors occurs, it is recommended to delete the folder Photon Unity Netwo
     `
 4. Ensure your title's virtual currencies match those listed in /Documentation/VirtualCurrencies.json:
   1. Manually adding them via the Game Manager > Economy > Currencies
-  2. Run the following command with the data in /Documentation/VirtualCurrencies.json:
+  2. Run the following [Admin command](https://api.playfab.com/Documentation/Admin/method/AddVirtualCurrencyTypes) with the data in /Documentation/VirtualCurrencies.json:
     `
     curl -XPOST https://2ABE.playfabapi.com/admin/AddVirtualCurrencyTypes \
     -H "Content-Type: application/json" \
